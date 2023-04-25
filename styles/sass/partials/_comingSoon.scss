@@ -1,0 +1,13 @@
+@use './variables' as *;
+
+html {
+    background-image: url(../assets/IMG_0002.JPG);
+    background-repeat: no-repeat;
+    background-position: contain;
+}
+
+.textContainer {
+    color: white;
+    border: 3px solid red;
+}
+
