@@ -8,6 +8,56 @@ html {
 
 .textContainer {
     color: white;
-    border: 3px solid red;
+    text-align: center;
+    border-radius: 15px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+
+    h1 {
+        margin-top: 3rem;
+        margin-bottom: 1rem;
+    }
+
+    h2 {
+        margin: 1rem 0;
+    }
+
+    .domain {
+        margin: 3rem 0;
+    }
+
+    h3 {
+        margin-top: 8rem;
+    }
+}
+
+.contactInfo {
+    margin-top: 10rem;
+}
+
+.creatorInfo {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    
+    .garyInfo {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .dragiInfo {
+        width: 50%;
+    }
+
+    .creatorName {
+        font-size: 1.5rem;
+    }
+}
+
+.address {
+    margin-top: 5rem;
 }
 

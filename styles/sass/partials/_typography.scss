@@ -10,14 +10,22 @@ h3,
 h4,
 h5,
 button {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
+    font-family: 'Castoro Titling', cursive;
+    letter-spacing: 0.05rem;
+}
+
+h1 {
+    font-size: clamp(3em, 2vw, 1.5rem);
+}
+
+h3 {
+    font-size: clamp(3rem, 2vw, 1rem);
 }
 
 p, 
 a,
 li {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;    
     font-size: clamp(0.8rem, 2vw, 1rem);
-    letter-spacing: 0.05rem;
+    letter-spacing: 0.1rem;
 }
