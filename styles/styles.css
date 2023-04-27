@@ -276,16 +276,19 @@ button {
 }
 
 h1 {
-  font-size: clamp(3em, 2vw, 1.5rem);
+  font-size: clamp(4.5rem, 2vw, 1.5rem);
 }
 
 h3 {
-  font-size: clamp(3rem, 2vw, 1rem);
+  font-family: "Raleway", sans-serif;
+  font-size: clamp(2.5rem, 2vw, 1rem);
+  font-weight: 300;
 }
 
 p,
 a,
 li {
+  color: white;
   font-family: "Raleway", sans-serif;
   font-size: clamp(0.8rem, 2vw, 1rem);
   letter-spacing: 0.1rem;
@@ -300,7 +303,7 @@ html {
 .textContainer {
   color: white;
   text-align: center;
-  border-radius: 15px;
+  border: 2px solid white;
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
@@ -323,7 +326,7 @@ html {
 }
 
 .creatorInfo {
-  margin-top: 5rem;
+  margin-top: 8rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -349,7 +352,56 @@ html {
 .creatorInfo .creatorName {
   font-size: 1.5rem;
 }
+.creatorInfo .creatorName a:hover,
+.creatorInfo .creatorName a:focus {
+  cursor: pointer;
+}
 
 .address {
   margin-top: 5rem;
+  margin-bottom: 2rem;
+}
+
+@media (max-width: 650px) {
+  h1 {
+    font-size: 3rem;
+  }
+  h3 {
+    font-size: 2rem;
+  }
+  .creatorInfo {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .creatorInfo .dragiInfo {
+    margin-top: 2rem;
+  }
+  .breakLine {
+    border-bottom: 1px solid white;
+    margin: 0 auto;
+    padding-top: 3rem;
+    width: 15rem;
+  }
+  .address {
+    margin-top: 3rem;
+  }
+}
+@media (max-width: 475px) {
+  h1 {
+    font-size: 2rem;
+  }
+  h3 {
+    font-size: 1.5rem;
+  }
+  .creatorInfo .creatorName {
+    font-size: 1.3rem;
+  }
+  .address {
+    padding: 0 1.5rem;
+  }
 }
