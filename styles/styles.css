@@ -311,6 +311,9 @@ html {
   margin-top: 3rem;
   margin-bottom: 1rem;
 }
+.textContainer h1 .beau {
+  color: grey;
+}
 .textContainer h2 {
   margin: 1rem 0;
 }
@@ -350,7 +353,7 @@ html {
   width: 50%;
 }
 .creatorInfo .creatorName {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 .creatorInfo .creatorName a:hover,
 .creatorInfo .creatorName a:focus {
@@ -397,9 +400,6 @@ html {
   }
   h3 {
     font-size: 1.5rem;
-  }
-  .creatorInfo .creatorName {
-    font-size: 1.3rem;
   }
   .address {
     padding: 0 1.5rem;
